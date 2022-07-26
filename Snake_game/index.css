@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    background:url(/image/bg.jpg);
+    color: black;
+    min-height: 100vh;
+    background-size: 110vw 100vh;
+  
+    
+    
+}
+.board{
+ background: linear-gradient(rgb(126, 168, 126),rgb(161, 161, 114)
+ );
+ height: 90vmin;
+ width: 90vmin;
+ display: grid;
+ grid-template-columns: repeat(18,1fr);
+ grid-template-rows: repeat(18,1fr);
+ border: 2px solid black;
+ position: relative;
+}
+
+.food{
+    background-color: #94167C;
+    /* border: 2px solid #3D9425; */
+    border-radius: 10px;
+}
+.head{
+    background: #08A5A8;
+    transform: scale(1.2);
+    border: 2px solid black;
+    border-radius: 20px 
+
+}
+.snake{
+    background-color: #1F5859;
+    border: 2px solid #E04FC5;
+    border-radius: 10px;
+}
+.scorePara{
+    font-family: 'Press Start 2P', cursive;
+    font-size: xx-large;
+    position: absolute;
+    top: 50px;
+    right: 2%;
+}
