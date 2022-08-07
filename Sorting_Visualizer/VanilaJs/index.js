@@ -10,9 +10,9 @@ let alogoBtn= document.querySelectorAll(".algos .btn");
 
 let div_sizes=[];
 let divs=[];
-let speed=100;
+
 let c_delay=0;
-let delay_time=10000/(Math.floor(arrSize/10)*speed); 
+
 
 //Array generation and updation.
 generateBtn.addEventListener("click",generateArr)
