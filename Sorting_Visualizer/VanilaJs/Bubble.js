@@ -34,9 +34,9 @@ function Bubble()
             }
             div_update(divs[j],div_sizes[j], "blue");//Color updat
         }
-        div_update(divs[j],div_sizes[j], "blueviolet");//Color update
+        div_update(divs[j],div_sizes[j], "#0D6EFD");//Color update
     }
-    div_update(divs[0],div_sizes[0], "blueviolet");//Color update
+    div_update(divs[0],div_sizes[0], "#0D6EFD");//Color update
 
     // enable_buttons();
 }

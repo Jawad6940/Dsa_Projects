@@ -44,10 +44,10 @@ function Selection_sort()
         div_update(divs[i],div_sizes[i], "red");//Height update
         div_update(divs[index],div_sizes[index], "red");//Height update
         div_update(divs[index],div_sizes[index], "blue");//Color updat 
-        div_update(divs[i],div_sizes[i], "blueviolet");//Color update
+        div_update(divs[i],div_sizes[i], "#0D6EFD");//Color update
         
     }
-    div_update(divs[arrSize-1],div_sizes[arrSize-1], "blueviolet");//Color update
+    div_update(divs[arrSize-1],div_sizes[arrSize-1], "#0D6EFD");//Color update
 
     // enable_buttons();
 }

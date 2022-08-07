@@ -23,7 +23,7 @@ function Insertion() {
         div_update(divs[j], div_sizes[j], "red"); //Height update
         if(j+1!=i){
 
-            div_update(divs[j+1], div_sizes[j+1], "blueviolet"); //Height update
+            div_update(divs[j+1], div_sizes[j+1], "#0D6EFD"); //Height update
         }
         // prev=index;
         // div_update(divs[index],div_sizes[index], "red");//Color update
@@ -37,14 +37,14 @@ function Insertion() {
    
 
     div_sizes[j+1] = temp;
-    div_update(divs[j+1], div_sizes[j+1], "blueviolet");
-    div_update(divs[0], div_sizes[0], "blueviolet");
-    div_update(divs[i], temp, "blueviolet");
+    div_update(divs[j+1], div_sizes[j+1], "#0D6EFD");
+    div_update(divs[0], div_sizes[0], "#0D6EFD");
+    div_update(divs[i], temp, "#0D6EFD");
     
     // div_update(divs[index], div_sizes[index], "blue"); //Color updat
-    // div_update(divs[j+1], div_sizes[j+1], "blueviolet"); //Color update
+    // div_update(divs[j+1], div_sizes[j+1], "#0D6EFD"); //Color update
   }
-  div_update(divs[arrSize - 1], div_sizes[arrSize - 1], "blueviolet"); //Color update
+  div_update(divs[arrSize - 1], div_sizes[arrSize - 1], "#0D6EFD"); //Color update
 
   // enable_buttons();
 }

@@ -32,7 +32,7 @@ background-color: rgb(30, 30, 247);
      background-color: blueviolet;
    }
    #Time_Worst,#Time_Average,#Time_Best,#Space_Worst{
-    color: blueviolet;;
+    color: #0D6EFD;;
    }
    @media screen and (max-width: 800px) {
     .main_container{
