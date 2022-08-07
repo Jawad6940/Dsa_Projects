@@ -1,1 +1,2 @@
-### link -> https://snake-game-js-game.netlify.app/
+### link -> [Click here](https://snake-game-js-game.netlify.app/)
+)
