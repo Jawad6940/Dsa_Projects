@@ -25,4 +25,4 @@ If the current element is greater than the next element of the array, swap them.
 If the current element is less than the next element, move to the next element.
 In essence, each item “bubbles” up to the location where it belongs.
 
-## This app is deployed with Netlify and can be accessed here: [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/). I hope you have fun playing around with it.-> 
+### This app is deployed with Netlify and can be accessed here: [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/). I hope you have fun playing around with it.-> 
