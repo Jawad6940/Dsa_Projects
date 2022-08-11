@@ -17,12 +17,12 @@ I wanted to improve my skills with JS and also learn classic sorting algorithms.
 Colored representation of step being executed. 1.1) Blue:default 1.2) Yellow: Being compared 1.3) Red: Identified as in incorrect position and to be moved 1.4) Green: In correct position
 3 Controls for visualizations 2.1) Speed of visualization (5 speed levels) 2.2) Data size () 2.3) Generation of new data (Randomly generate new data).
 Time and Space complexity of algorithm being visualized.
-
+## Algorithms
 - Bubble Sort
   - Bubble sort is one of the most straightforward sorting algorithms, it makes multiple passes through a list.
-   - Starting with the first element, compare the current element with the next element of the array.
-If the current element is greater than the next element of the array, swap them.
-If the current element is less than the next element, move to the next element.
-In essence, each item “bubbles” up to the location where it belongs.
+    - Starting with the first element, compare the current element with the next element of the array.
+    - If the current element is greater than the next element of the array, swap them.
+    - If the current element is less than the next element, move to the next element.
+    - In essence, each item “bubbles” up to the location where it belongs.
 
 ### This app is deployed with Netlify and can be accessed here: [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/). I hope you have fun playing around with it.-> 
