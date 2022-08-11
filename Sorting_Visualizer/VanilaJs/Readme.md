@@ -19,7 +19,7 @@ Colored representation of step being executed. 1.1) Blue:default 1.2) Yellow: Be
 Time and Space complexity of algorithm being visualized.
 ## Algorithms
 - Bubble Sort
-  - Bubble sort is one of the most straightforward sorting algorithms, it makes multiple passes through a list.
+    - Bubble sort is one of the most straightforward sorting algorithms, it makes multiple passes through a list.
     - Starting with the first element, compare the current element with the next element of the array.
     - If the current element is greater than the next element of the array, swap them.
     - If the current element is less than the next element, move to the next element.
