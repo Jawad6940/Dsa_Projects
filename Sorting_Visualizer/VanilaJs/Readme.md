@@ -35,8 +35,11 @@ Time and Space complexity of algorithm being visualized.
     - The algorithm maintains two subarrays in a given array.
     - The subarray which is already sorted.
     - Remaining subarray which is unsorted.
-    - If the key element is smaller than its predecessor, compare its elements before.
-    - Move the greater elements one position up to make space for the swapped element.
-    - It splits the given array into sorted and unsorted parts, then the values from the unsorted parts are picked and placed at the correct position in the sorted part.
-
+    - In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
+- Merge Sort
+    - Merge sort uses the divide and conquer approach to sort the elements.
+    - It is one of the most popular and efficient sorting algorithms.
+    - The sub-lists are divided again and again into halves until the list cannot be divided further.
+    - Then we combine the pair of one element lists into two-element lists, sorting them in the process.
+    - The sorted two-element pairs is merged into the four-element lists, and so on until we get the sorted list.
 ### This app is deployed with Netlify and can be accessed here: [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/). I hope you have fun playing around with it.-> 
