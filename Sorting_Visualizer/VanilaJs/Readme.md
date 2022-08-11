@@ -42,4 +42,4 @@ Time and Space complexity of algorithm being visualized.
     - The sub-lists are divided again and again into halves until the list cannot be divided further.
     - Then we combine the pair of one element lists into two-element lists, sorting them in the process.
     - The sorted two-element pairs is merged into the four-element lists, and so on until we get the sorted list.
-### This app is deployed with Netlify and can be accessed here: [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/). I hope you have fun playing around with it.-> 
+#### This app is deployed with Netlify and can be accessed here: [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/). I hope you have fun playing around with it.-> 
