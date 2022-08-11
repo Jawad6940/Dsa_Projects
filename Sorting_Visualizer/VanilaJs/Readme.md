@@ -24,5 +24,19 @@ Time and Space complexity of algorithm being visualized.
     - If the current element is greater than the next element of the array, swap them.
     - If the current element is less than the next element, move to the next element.
     - In essence, each item “bubbles” up to the location where it belongs.
+- Insertion Sort
+    - Like bubble sort, the insertion sort algorithm is straightforward to implement and understand.
+    - Iterate from arr[1] to arr[n] over the array.
+    - Compare the current element (key) to its predecessor.
+    - If the key element is smaller than its predecessor, compare its elements before.
+    - Move the greater elements one position up to make space for the swapped element.
+    - It splits the given array into sorted and unsorted parts, then the values from the unsorted parts are picked and placed at the correct position in the sorted part.
+- Selection Sort
+    - The algorithm maintains two subarrays in a given array.
+    - The subarray which is already sorted.
+    - Remaining subarray which is unsorted.
+    - If the key element is smaller than its predecessor, compare its elements before.
+    - Move the greater elements one position up to make space for the swapped element.
+    - It splits the given array into sorted and unsorted parts, then the values from the unsorted parts are picked and placed at the correct position in the sorted part.
 
 ### This app is deployed with Netlify and can be accessed here: [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/). I hope you have fun playing around with it.-> 
