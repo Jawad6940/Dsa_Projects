@@ -66,8 +66,8 @@ function runAlgo()
                         break;
         case "Insertion":Insertion();
                         break;
-        // case "Merge":Merge();
-        //                 break;
+        case "Merge":Merge();
+                        break;
         // case "Quick":Quick();
         //                 break;
         // case "Heap":Heap();
@@ -80,7 +80,9 @@ function div_update(cont,height,color)
     window.setTimeout(function(){
         cont.style=`width:${100/arrSize-.2}%; height:${height}%; background-color:${color};`
     },c_delay+=delay_time);
+    
 }
+
 
 window.onload=update_array_size();
 

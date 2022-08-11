@@ -2,7 +2,7 @@
 
 function Bubble()
 {
-    console.log("hi");
+    // console.log("hi");
     //Setting Time complexities
     document.getElementById("Time_Worst").textContent="O(N^2)";
     document.getElementById("Time_Average").textContent="Θ(N^2)";
@@ -13,7 +13,7 @@ function Bubble()
 
     c_delay=0;
 
-    for(let i=0;i<arrSize-1;i++)
+     for(let i=0;i<arrSize-1;i++)
     {
         let j=0;
         for(;j<arrSize-i-1;j++)
