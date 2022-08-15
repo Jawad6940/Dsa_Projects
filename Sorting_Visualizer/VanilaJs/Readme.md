@@ -1,4 +1,4 @@
-# [Sorting Visualizer](https://sorting-visualizer-vanila-js.netlify.app/)
+# Sorting Visualizer [Try it Now](https://sorting-visualizer-vanila-js.netlify.app/)
 <p> A sorting algorithm is an algorithm that puts the elements of a list in a certain order. While there are a large number of sorting algorithms, in practical implementations a few algorithms predominate. In this implementation of sorting visualizer, we'll be looking at some of these sorting algorithms and visually comprehend their working. The sorting algorithms covered here are Selection Sort, Insertion Sort, Bubble Sort, Merge Sort, Quick Sort and Heap Sort. The maximum array size is fixed to 150 elements. You can randomize the array and select any type of sorting algorithm to call on the list from the given options. Here, all sorting algorithms will sort the elements in ascending order.</p> 
 
 ## Implemented algorithms:
