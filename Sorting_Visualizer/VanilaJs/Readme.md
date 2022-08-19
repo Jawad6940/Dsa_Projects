@@ -21,7 +21,7 @@ I wanted to improve my skills with JS and also learn classic sorting algorithms.
     - Data size 
     - Generation of new data (Randomly generate new data).
 
-3. Time and Space complexity of algorithm being visualized.
+3. Time and Space complexity of algorithm being displayed.
 ## Algorithms
 - Bubble Sort
     - Bubble sort is one of the most straightforward sorting algorithms, it makes multiple passes through a list.
