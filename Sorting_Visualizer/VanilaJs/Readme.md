@@ -14,7 +14,11 @@
 I wanted to improve my skills with JS and also learn classic sorting algorithms. This project turned out to be a great way to achieve both of the aforementioned objectives at the same time.
 ## Features
 
-1. Colored representation of step being executed. 1.1) Blueviolet:default 1.2) Yellow: Being compared 1.3) Red: Identified as in incorrect position and to be moved 1.4) light blue: In correct position
+1. Colored representation of step being executed. 
+     1. Blueviolet:default 
+     2. Yellow: Being compared 
+     3. Red: Identified as in incorrect position and to be moved 
+     4. Light blue: In correct position
 
 2. 3 Controls for visualizations 
     - Speed of visualization (5 speed levels) 
