@@ -11,7 +11,7 @@
 - Heap sort
 
 ## Purpose
-I wanted to improve my skills with JS and also learn classic sorting algorithms. This project turned out to be a great way to achieve both of the aforementioned objectives at the same time.
+I made this sorting visualizer web application to improve my skills more in HTML, CSS, and JS. And to help the beginners in programming to gain more knowledge and understanding on classic sorting algorithms by visualizing them.
 ## Features
 
 1. Colored representation of step being executed. 
