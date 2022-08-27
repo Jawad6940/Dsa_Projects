@@ -6,7 +6,7 @@ function Quick()
     document.getElementById("Time_Best").innerText="Ω(N log N)";
 
     //Setting Space complexity
-    document.getElementById("Space_Worst").innerText="O(log N)";
+    document.getElementById("Space_Worst").innerText="O(1)";
 
     c_delay=0;
 
