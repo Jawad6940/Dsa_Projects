@@ -26,3 +26,20 @@ In this page we can change patient details by searching by patient id.If id does
 
 8. Hospital Information:
 In this page we can see all the information related to hospital.
+## Languages and Technologies used
+1. Java Swing (Frontend Support)
+2. Java (Backend Support)
+3. MySQL (An RDBMS that uses SQL)
+
+## SOFTWARES USED
+1. MySQL Workbench. And, tables were built inside it
+2. Netbeans IDE to create the project.
+
+## Getting Started
+To get started, simply download the project files and load the SQL databases using MySQL or xampp. Testing has been performed using both.
+For editing and launching, using Netbeans would be the best. 
+
+Prerequisites
+XAMPP (recommended choice) or MySQL
+Java (version 8 or higher)
+
