@@ -43,3 +43,13 @@ For editing and launching, using Netbeans would be the best.
   - XAMPP (recommended choice) or MySQ
   - Java (version 8 or higher)
 
+## Future scope:
+  - Better UI/UX by using Frontend technologies like HTML,CSS and Js
+  - Ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved.
+  - Improved login method, user can login by using email or phone number etc.
+  - User should not be allowed to register if he/she tries to provide the already registered email ID.
+  - The password encryption.
+  - Implementation of pagination for all the list view across the application.
+  - Bill payment and online receipt system.
+  - Addition of more details on payment - such as date of the payment made, amount paid, etc.
+  - Implementation of export button in admin module to export all details to an excel sheet or pdf.
