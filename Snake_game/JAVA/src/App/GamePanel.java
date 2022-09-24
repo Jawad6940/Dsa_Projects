@@ -8,9 +8,12 @@ import java.util.Random;
 
 public class GamePanel extends JPanel implements ActionListener {
     //fixed sizes
-    //panel
-    static final int SCREEN_WIDTH=600;
-    static final int SCREEN_HEIGHT =600;
+    //panel1
+    static final int SCREEN_WIDTH=700;
+    static final int SCREEN_HEIGHT =700;
+     //panel2
+    //  static final int SCREEN_WIDTH=800;
+
     //block
     static final int UNIT_SIZE =25;
     //total blocks
@@ -34,10 +37,12 @@ public class GamePanel extends JPanel implements ActionListener {
     Timer timer;
     Random random;
 
-  
     GamePanel(){
         random = new Random();
+        
 		this.setPreferredSize(new Dimension(SCREEN_WIDTH,SCREEN_HEIGHT));
+        
+		
 		this.setBackground(Color.black);
 		this.setFocusable(true);
 		this.addKeyListener(new MyKeyAdapter());
@@ -65,7 +70,7 @@ public class GamePanel extends JPanel implements ActionListener {
         g.setColor(Color.red);
         g.fillOval(appleX, appleY, UNIT_SIZE, UNIT_SIZE);
         //color snake
-        for (int i = 0; i < bodyParts; i++) {
+        for (int i = 0; i <bodyParts; i++) {
             if(i==0){
                 g.setColor(Color.green);
                 g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
@@ -83,6 +88,8 @@ public class GamePanel extends JPanel implements ActionListener {
     }
     else{
         gameOver(g);
+        
+
     }
     }
     public void newApple(){
