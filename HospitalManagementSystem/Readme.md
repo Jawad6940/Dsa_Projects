@@ -40,6 +40,6 @@ To get started, simply download the project files and load the SQL databases usi
 For editing and launching, using Netbeans would be the best. 
 
 ### Prerequisites
-XAMPP (recommended choice) or MySQL
-Java (version 8 or higher)
+  - XAMPP (recommended choice) or MySQ
+  - Java (version 8 or higher)
 
