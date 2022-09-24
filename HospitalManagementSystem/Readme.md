@@ -39,7 +39,7 @@ In this page we can see all the information related to hospital.
 To get started, simply download the project files and load the SQL databases using MySQL or xampp. Testing has been performed using both.
 For editing and launching, using Netbeans would be the best. 
 
-Prerequisites
+### Prerequisites
 XAMPP (recommended choice) or MySQL
 Java (version 8 or higher)
 
