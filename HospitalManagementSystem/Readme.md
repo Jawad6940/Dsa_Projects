@@ -14,10 +14,6 @@ In this page we have multiple fields to get details of patient or we can say add
 4. Add Diagnosis Information Page:
 In this page first we have to enter id then we have click on search then it will show all the details of that patient.If patient does not exist then it will show error message. After that we have multiple fields to get and add diagnosis information of patient in our database and having two buttons first one is used to save details and second one is used close this page.
 
-
-5. Issue Book Page:
-In this page we have to enter student ID and Book ID then we have to set  issue date and return date and then we will click on save button if student ID or Book ID does not exist then it will show error message. If our student ID and Book ID is correct then it will save successfully. In this page there is one more button to close this page.
-
 6. Full History Of The Patient Page:
 In this page we can see all the details of the patients and diagnosis information of patients.It also have a button to close this page.
 
